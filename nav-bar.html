@@ -1,0 +1,20 @@
+<div id="logo_top_container">
+    <a href="index.html">
+    </a>
+</div>
+
+<div class="nav-section">
+<nav id="nav_bar">
+    <ul id="nav_bar_list">
+        <li ng-repeat="option in getOptions()" class="nav_link_button small-1 medium-2 large-1">
+            <a class="nav_link" href={{option.link}}>{{option.name}}</a>
+        </li>
+    </ul>
+</nav>
+<nav id="nav_bar_small">
+    <ul id="nav_bar_small_list">
+            <li ng-repeat="option in getOptions()" class="nav_link_button_small">
+                <a class="nav_link" href={{option.link}}>{{option.name}}</a>
+            </li>
+    </ul>
+</nav>
