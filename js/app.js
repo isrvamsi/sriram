@@ -26,7 +26,7 @@ myApp.controller("myController", function($scope){
             name: "Home",
             link: "index.html"
         },
-        {
+/*{
             name: "Blog",
             link: "rohan-blog"
         },
@@ -41,7 +41,7 @@ myApp.controller("myController", function($scope){
         {
             name: "Research",
             link: "research.html"
-        },
+        },*/ 
         {
             name: "Contact",
             link: "contact.html"
