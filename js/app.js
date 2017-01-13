@@ -26,6 +26,7 @@ myApp.controller("myController", function($scope){
             name: "Home",
             link: "index.html"
         },
+		
 /*{
             name: "Blog",
             link: "rohan-blog"
